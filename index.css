@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  background-color: beige;
+}
+
+body h1 {
+  font-size: 5Srem;
+  background-image: -webkit-gradient(linear, left top, right top, from(red), to(#00ffea));
+  background-image: linear-gradient(to right, red, #00ffea);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+body #vertical {
+  width: 100px;
+  background-color: black;
+}
+
+body #vertical a {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  color: #fd0a0a;
+}
+
+body #vertical a:hover {
+  background-color: aquamarine;
+}
+
+body #vertical a.active {
+  background-color: bisque;
+}
+
+body #horizontal {
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #horizontal a {
+  text-align: center;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body #horizontal a:hover {
+  background-color: aquamarine;
+}
+
+body #horizontal a.active {
+  background-color: bisque;
+}
+
+body footer {
+  text-align: center;
+  color: aqua;
+  background-color: red;
+  border-radius: 5rem;
+}
+/*# sourceMappingURL=index.css.map */
